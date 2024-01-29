@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan's Store</title>
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!------------------- Header Section ---------------------------->
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="./index.html"><img src="./images/logo.png"></a> 
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="./account-page.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./shopping-cart.html"><img src="./images/cart.png"  class="cart"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Enjoy Your Workout With <br>A New Style.</h1>
+                <p>Consistency Plus Time Reaps <br>Great Results</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="./images/image1.png" >
+            </div>
+        </div>
+    </div>
+</div>
+ <!------------------- featured categories ---------------------------->
+ <div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="./images/category-1.jpg">
+            </div>
+            <div class="col-3">
+                <img src="./images/category-2.jpg">
+            </div>
+            <div class="col-3">
+                <img src="./images/category-3.jpg">
+            </div>
+        </div>
+    </div>
+ </div>
+  <!------------------- Featured Products ---------------------------->
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="./products-details.html"><img src="images/product-1.jpg"></a>
+            <a href="./products-details.html"><h4>Red Printed T-shirt</h4></a>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-2.jpg">
+            <h4>Sneakers Shoes Black</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$119.90</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-3.jpg">
+            <h4>Casual Trousers Fitness Gym</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$69.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-4.jpg">
+            <h4>Performance Crew T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$33.99</p>
+        </div>
+    </div>
+</div>
+
+  <!------------------- Latest Products ---------------------------->
+  <div class="small-container">
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-5.jpg">
+            <h4>Puma high-cut shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$120.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-6.jpg">
+            <h4>Puma -black T-shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$53.90</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-7.jpg">
+            <h4>HRX Socks (3 sets.)</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$69.00</p>
+        </div>   
+        <div class="col-4">
+            <img src="images/product-8.jpg">
+            <h4>Forser Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$90.99</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-9.jpg">
+            <h4>Forser black-gold watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$33.99</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-10.jpg">
+            <h4>X-high performance sneekers</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$133.99</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-11.jpg">
+            <h4>Gray Soft-niko shoes</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$33.99</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-12.jpg">
+            <h4>Casual gym fit</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <p>$80.99</p>
+        </div>
+    </div>
+  </div>
+<!------------------- Exclusive Products ---------------------------->
+      <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./images/exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively on offer Just for you </p>
+                    <h1>Smart Band 4 </h1>
+                    <small>The Mi smart Band 4 features a 39.9% larger(than Mi band 3) amoles color full touch display with adjustable brightness.</small><br>
+                    <a href=""class="btn">Buy Now &#8594</a>
+                </div>
+            </div>
+        </div>
+      </div> 
+
+<!-------------------  Testimonials ---------------------------->
+<div class="testimony">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="fa fa-quote-left" class="quote"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tempora delectus dolorem suscipit numquam facilis totam, 
+                    accusamus dolore nesciunt sunt dolorum placeat quae neque 
+                    ratione impedit recusandae dicta corrupti culpa quas!</p>
+
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <img src="images/user-2.png" class="user-1">
+                    <h3>Sean Dee</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left" class="quote"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tempora delectus dolorem suscipit numquam facilis totam, 
+                    accusamus dolore nesciunt sunt dolorum placeat quae neque 
+                    ratione impedit recusandae dicta corrupti culpa quas!</p>
+
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png" class="user-1">
+                    <h3>Rebecca Dawson</h3>
+            </div>
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Tempora delectus dolorem suscipit numquam facilis totam, 
+                    accusamus dolore nesciunt sunt dolorum placeat quae neque 
+                    ratione impedit recusandae dicta corrupti culpa quas!</p>
+
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png" class="user-1">
+                    <h3>Alison Beacker</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------  Popular Brands ---------------------------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------------  footer ---------------------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android And IOS</p>
+                <div class="app-logo">
+                    <img src="./images/play-store.png">
+                    <img src="./images/app-store.png">
+                </div>
+                
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/logo.png">
+                <p> Availing Comfortable Outfits for enjoyable sport Experiences.</p>
+            </div>
+            <div class="footer-col-3">
+               <h3>Useful Links</h3>
+                <ul>
+                    <li> <a href="#">Coupons</a></li>
+                    <li> <a href="#">Blog Post</a></li>
+                    <li> <a href="#">Return Policy</a></li>
+                    <li> <a href="#">Join Affiliate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">App X</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023. Dan's Store </p>
+    </div>
+</div>
+<!-------------------  Js for toggle Menu ---------------------------->
+<script src="./main-js/main.js"></script>
+</body>
+</html>
